@@ -1,0 +1,10 @@
+/* Gaya untuk tombol "Home" aktif */
+.active-home {
+    background-color: #078080; /* Ganti dengan warna latar belakang yang Anda inginkan */
+    color: #ffffff; /* Ganti dengan warna teks yang sesuai */
+  }
+
+.customToggle{
+    border-color: #078080;
+    
+}
