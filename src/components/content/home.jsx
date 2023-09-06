@@ -2,9 +2,7 @@
 import React from "react";
 import "./Home.css";
 import Slider from "./sd";
-
-import Carousel from "react-bootstrap/Carousel";
-import { MDBCarousel, MDBCarouselItem } from "mdb-react-ui-kit";
+import imgUrl from "/img/profil.png";
 
 function Home() {
   return (
@@ -39,8 +37,9 @@ function Home() {
             <div className="col-lg-5 order-lg-2 order-1 mb-5 mt-5 rounded-5 container-foto border border-black border-5">
               <img
                 className="my-foto"
-                src="public/img/fotor-ai-20230816161916-removebg-preview.png"
                 alt="My Photo"
+                id="myFoto"
+                src="./img/profil.png"
               />
             </div>
           </div>

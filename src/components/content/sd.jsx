@@ -5,7 +5,7 @@ import "react-responsive-carousel/lib/styles/carousel.min.css";
 function Slider() {
   const slides = [
     {
-      image: "public/img/quotes.png",
+      image: "./img/quotes.png",
       title: "Quotes Generator",
       description:
         "Ini adalah sebuah generator quotes yang terdiri dari dua basa yaitu indonesia dan inggris",
@@ -14,7 +14,7 @@ function Slider() {
       teknologi: ["HTML", "CSS", "JavaScript"],
     },
     {
-      image: "public/img/quotes.png",
+      image: "./img/quotes.png",
       title: "Tugas",
       description: "This is a second description",
       clickEvent: "sliderClick",
@@ -23,7 +23,7 @@ function Slider() {
       teknologi: ["HTML", "CSS", "JavaScript"],
     },
     {
-      image: "public/img/quotes.png",
+      image: "./img/quotes.png",
       title: "This is a third title",
       description: "This is a third description",
       clickEvent: "sliderClick",
@@ -47,9 +47,9 @@ function Slider() {
               />
               <p>{slide.title}</p>
               <p>{slide.description}</p>
-              <div class="d-grid gap-2">
+              <div className="d-grid gap-2">
                 <a
-                  class="btn"
+                  className="btn"
                   style={{ color: "white", backgroundColor: "#078080" }}
                 >
                   lihat Project

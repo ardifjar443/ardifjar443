@@ -1,6 +1,5 @@
 import React, { useState } from "react";
 import { Navbar, Container, Nav } from "react-bootstrap";
-import "./navbar.css";
 
 function AppNavbar({ activeTab, setActiveTab }) {
   const [isNavExpanded, setIsNavExpanded] = useState(false);
@@ -27,6 +26,7 @@ function AppNavbar({ activeTab, setActiveTab }) {
           aria-controls="navbar-nav"
           onClick={() => setIsNavExpanded(!isNavExpanded)}
           className="customToggle border-3"
+          style={{ borderColor: "#078080" }}
         />
         <Navbar.Collapse id="navbar-nav">
           <Nav className="ml-auto">
@@ -35,12 +35,13 @@ function AppNavbar({ activeTab, setActiveTab }) {
             <Nav.Link
               className={`fs-3 modal-button ${
                 activeTab === "home"
-                  ? "text-light active-home rounded-2 p-2 border border-5 border-black"
+                  ? "text-light rounded-2 p-2 border border-5 border-black"
                   : ""
               }`}
               href="#"
               id="content"
               onClick={() => handleTabClick("home")}
+              style={activeTab == "home" ? { backgroundColor: "#078080" } : {}}
             >
               Home
             </Nav.Link>
@@ -51,12 +52,15 @@ function AppNavbar({ activeTab, setActiveTab }) {
             <Nav.Link
               className={`fs-3 modal-button ${
                 activeTab === "contact"
-                  ? "text-light active-home rounded-2 p-2 border border-5 border-black"
+                  ? "text-light rounded-2 p-2 border border-5 border-black"
                   : ""
               }`}
               href="#"
               id="content"
               onClick={() => handleTabClick("contact")}
+              style={
+                activeTab == "contact" ? { backgroundColor: "#078080" } : {}
+              }
             >
               Contact Us
             </Nav.Link>
