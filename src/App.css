@@ -11,7 +11,6 @@
 }
 
 .my-foto {
-
   object-fit: cover;
   width: 100%;
   border-radius: 1rem;
@@ -20,9 +19,12 @@
   -ms-border-radius: 1rem;
   -o-border-radius: 1rem;
 }
-.container-foto{
+.container-foto {
   background-color: #f45d48;
 }
 
-
-
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu+Mono&display=swap");
+body {
+  font-family: "Ubuntu Mono", monospace;
+  background-color: #f8f5f2;
+}
