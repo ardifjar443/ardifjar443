@@ -12,7 +12,7 @@ function App() {
   return (
     <div>
       <AppNavbar activeTab={activeTab} setActiveTab={setActiveTab} />
-      <Content activeTab={activeTab} />
+      <Content activeTab={activeTab} setActiveTab={setActiveTab} />
       <p>{activeTab}</p>
       <Footer />
     </div>

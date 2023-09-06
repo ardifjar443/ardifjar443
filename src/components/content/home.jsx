@@ -2,7 +2,6 @@
 import React from "react";
 import "./Home.css";
 import Slider from "./sd";
-import imgUrl from "/img/profil.png";
 
 function Home() {
   return (

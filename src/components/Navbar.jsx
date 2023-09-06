@@ -15,21 +15,24 @@ function AppNavbar({ activeTab, setActiveTab }) {
       bg="light"
       variant="light"
       fixed="top"
-      className="border border-black border-5 rounded-bottom-5 loading-halaman"
+      className="border border-black border-5 rounded-bottom-5 loading-halaman navbar-expand-lg "
       expanded={isNavExpanded}
     >
       <Container fluid>
-        <Navbar.Brand className="fs-2 fw-bold ms-2" href="#" id="ehe">
+        <Navbar.Brand className="fs-2 fw-bold" href="#" id="ehe">
           ArdiFjar443
+          <span className="me-5 ms-2 text-secondary fs-4">{activeTab}</span>
         </Navbar.Brand>
+
         <Navbar.Toggle
           aria-controls="navbar-nav"
           onClick={() => setIsNavExpanded(!isNavExpanded)}
           className="customToggle border-3"
           style={{ borderColor: "#078080" }}
         />
-        <Navbar.Collapse id="navbar-nav">
-          <Nav className="ml-auto">
+
+        <Navbar.Collapse id="navbar-nav" className="justify-content-end">
+          <Nav className="ml-end">
             {" "}
             {/* Mengatur tombol kanan pada tampilan desktop */}
             <Nav.Link
@@ -46,7 +49,7 @@ function AppNavbar({ activeTab, setActiveTab }) {
               Home
             </Nav.Link>
           </Nav>
-          <Nav className="ml-auto">
+          <Nav className="ml-end">
             {" "}
             {/* Mengatur tombol kanan pada tampilan mobile */}
             <Nav.Link
