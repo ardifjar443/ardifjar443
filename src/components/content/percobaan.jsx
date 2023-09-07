@@ -1,18 +1,15 @@
-// src/components/Footer.js
-import React from "react";
+import React, { useState, useEffect } from "react";
 
-function Percobaan() {
-  return (
-    <>
-      <h1>ehe</h1>
-      <h1>ehe</h1>
-      <h1>ehe</h1>
-      <h1>ehe</h1>
-      <h1>ehe</h1>
-      <h1>ehe</h1>
-      <h1>ehe</h1>
-    </>
-  );
-}
+const Percobaan = () => {
+  const [htmlContent, setHtmlContent] = useState("");
+
+  useEffect(() => {
+    fetch("./algebra/proportions.html")
+      .then((response) => response.text())
+      .then((data) => setHtmlContent(data));
+  }, []);
+
+  return <div dangerouslySetInnerHTML={{ __html: htmlContent }} />;
+};
 
 export default Percobaan;

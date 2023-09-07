@@ -1,7 +1,9 @@
 // src/components/Footer.js
 import React from "react";
-import "./Home.css";
-import Slider from "./sd";
+import "./home/Home.css";
+import Slider from "./home/sd";
+import Skills from "./home/Skills";
+import Content from "./home/Content";
 
 function Home() {
   return (
@@ -74,6 +76,8 @@ function Home() {
           </div>
         </div>
       </section>
+      <Skills />
+      <Content />
     </>
   );
 }

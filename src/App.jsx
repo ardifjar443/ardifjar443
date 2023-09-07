@@ -11,10 +11,9 @@ function App() {
   const [activeTab, setActiveTab] = useState("home");
 
   return (
-    <div style={{ fontFamily: "Ubuntu Mono" }}>
+    <div style={{ fontFamily: "Ubuntu Mono", backgroundColor: "#f8f5f2" }}>
       <AppNavbar activeTab={activeTab} setActiveTab={setActiveTab} />
       <Content activeTab={activeTab} setActiveTab={setActiveTab} />
-      <p>{activeTab}</p>
       <Footer />
     </div>
   );
