@@ -12,7 +12,7 @@
 <h3 align="left">Connect with me:</h3>
 <p align="left">
 <a href="https://codepen.io/ardi-fajar-arifin" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/codepen.svg" alt="ardi-fajar-arifin" height="30" width="40" /></a>
-<a href="https://linkedin.com/in/ardifajararifin" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="ardi-fajar-arifin" height="30" width="40" /></a>
+<a href="https://www.linkedin.com/in/ardi-fajar-arifin/" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="ardi-fajar-arifin" height="30" width="40" /></a>
 <a href="https://kaggle.com/ardi fajar arifin" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/kaggle.svg" alt="ardi fajar arifin" height="30" width="40" /></a>
 <a href="https://instagram.com/ardi_fj_ar" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/instagram.svg" alt="ardi_fj_ar" height="30" width="40" /></a>
 <a href="https://medium.com/@ardifjar443" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/medium.svg" alt="@ardifjar443" height="30" width="40" /></a>
