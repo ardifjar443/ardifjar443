@@ -24,7 +24,7 @@
 
 
 ![ardifjar443's GitHub stats](https://github-readme-stats.vercel.app/api?username=ardifjar443&show_icons=true&theme=transparent)
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=ardifjar443&layout=compact)
+![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=ardifjar443&layout=compact&theme=transparent)
 
 <h3 align="left">Support:</h3>
 <p><a href="https://www.buymeacoffee.com/ardifjar443"> <img align="left" src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" height="50" width="210" alt="ardifjar443" /></a></p><br><br>
